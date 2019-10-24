@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    
+    <script type="text/javascript" src="arq.js"></script>
+ 
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="cabecalho"><h1>dashboard</h1>
+     </header>
+    <nav class="nave"><h4>Busca</h4>
+        <input class="search" type="text" name="nome" id="nome" placeholder="  Bairro, logadouro ... " >
+    </nav>
+    <aside class="barra-lateral">
+        <div class="logo">
+
+        </div>
+        <div class="img-usuario">
+            <img class="img-usu" src="/img/usuario.png" alt="">
+        </div>
+        <p class="nome-usuario">Rafaela</p>
+        <div class="text-barra-lateral">
+            <h5>BIO</h5>
+             Texto referente ao usuário ou sobre o site
+        </div>
+    </aside>
+    <section class="article-central"> 
+        <div class="one"> 
+            <h5>ÁREA M²</h5>
+            <input id="btn-range" type="range" min="1" max="100" value="2" class="slider"> 
+        </div>
+        <div class="value-one">M²</div>
+        <div class="value-two">M²</div>
+
+        <div class="two">
+            <div class="map">
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.0486824277!2d-46.87548474240438!3d-23.681531501191884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1571669354117!5m2!1spt-BR!2sbr"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="">
+            </iframe>
+            </div>
+        </div>
+        <div class="three">
+            <h5>Mais visitados </h5>
+            <a href="#" class="button shadow">&#171</a>
+            <img src="./img/fachada.jpg" alt="">
+            <a href="#" class="button shadow">&#187</a>
+        </div>
+        <div class="four"></div>
+    </section>
+    <footer class="rodape">
+        <h2>Resultado de busca</h2>
+        <div class="titulo-busca"></div>
+        <div class="ano-busca"></div>
+        <div class="logadouro-busca"></div>
+        <div class="numero-busca"></div>
+        <div class="bairro-busca"></div>
+    </footer>
+</body>
+</html>
