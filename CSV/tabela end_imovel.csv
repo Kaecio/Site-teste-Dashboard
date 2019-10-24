@@ -1,0 +1,4 @@
+id_imovel,logadouro,numero,cep,bairro,cidade,estado,latitude,longitude,metro_quadadro,img
+1,"Rua Santo Antonio",4,820666,"Jd. San Antonio","São Paulo",SP,-23.60,-46.67,NULL,NULL
+2,"Avenida Jabaquara",800,4045001,Mirandopolis,"São Paulo",SP,-23.61,-46.64,NULL,NULL
+3,"Rua Alfredo Pujol",800,2016000,Santana,"São Paulo",SP,-23.50,-46.63,NULL,NULL
